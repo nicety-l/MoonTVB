@@ -12,9 +12,9 @@ import { useSite } from '@/components/SiteProvider';
 import { ThemeToggle } from '@/components/ThemeToggle';
 
 // 版本显示组件
-//function VersionDisplay() {
-//  const [updateStatus, setUpdateStatus] = useState<UpdateStatus | null>(null);
-//  const [isChecking, setIsChecking] = useState(true);
+  function VersionDisplay() {
+  const [updateStatus, setUpdateStatus] = useState<UpdateStatus | null>(null);
+  const [isChecking, setIsChecking] = useState(true);
 
   useEffect(() => {
     const checkUpdate = async () => {
@@ -34,7 +34,7 @@ import { ThemeToggle } from '@/components/ThemeToggle';
   return (
     <button
       onClick={() =>
-        window.open('https://github.com/Stardm0/MoonTV', '_blank')
+        window.open('https://hy.yunhaoka.com/#/pages/goods/details?goods_id=73392385&share_id=688529', '_blank')
       }
       className='absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 transition-colors cursor-pointer'
     >
