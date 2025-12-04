@@ -12,9 +12,9 @@ import { useSite } from '@/components/SiteProvider';
 import { ThemeToggle } from '@/components/ThemeToggle';
 
 // 版本显示组件
-function VersionDisplay() {
-  const [updateStatus, setUpdateStatus] = useState<UpdateStatus | null>(null);
-  const [isChecking, setIsChecking] = useState(true);
+//function VersionDisplay() {
+//  const [updateStatus, setUpdateStatus] = useState<UpdateStatus | null>(null);
+//  const [isChecking, setIsChecking] = useState(true);
 
   useEffect(() => {
     const checkUpdate = async () => {
