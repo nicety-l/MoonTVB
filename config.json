@@ -5,6 +5,18 @@
       "name": "索尼",
       "api": "https://suoniapi.com/api.php/provide/vod"
     },
+    "电影天堂资源": {
+      "name": "电影天堂资源",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod"
+    },
+    "暴风资源": {
+      "name": "暴风资源",
+      "api": "https://bfzyapi.com/api.php/provide/vod"
+    },
+    "极速资源": {
+      "name": "极速资源",
+      "api": "https://jszyapi.com/api.php/provide/vod"
+    },
     "豪华": {
       "name": "豪华",
       "api": "https://hhzyapi.com/api.php/provide/vod"
